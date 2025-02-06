@@ -1,4 +1,4 @@
-Here is the **README.md** file structured based on your research proposal:  
+Here is the **README.md** file structured based on my research proposal:  
 
 ---
 
