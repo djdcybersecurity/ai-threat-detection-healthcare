@@ -1,65 +1,63 @@
-Here is the **README.md** file structured based on my research proposal:  
+# AI-Based Threat Detection for Small Healthcare Organizations: Advancing Cybersecurity Through Machine Learning
+
+## Overview
+This research project focuses on developing an **AI-driven threat detection system** for **small healthcare organizations** facing cybersecurity challenges. Small medical practices often have **limited IT resources**, making them vulnerable to **cyber threats**. This study aims to leverage **machine learning** techniques to improve anomaly detection, **enhancing data security** while keeping the solution **affordable and scalable**.
+
+## Research Objectives
+- **Develop** an AI-driven cybersecurity system tailored to small healthcare environments.
+- **Evaluate** system performance using **industry-standard cybersecurity datasets**.
+- **Optimize** the detection model to **reduce false positives** while maintaining high accuracy.
+- **Create** deployment recommendations to assist small healthcare organizations in securing their networks.
+
+## Methodology
+### Data Collection & Preparation
+- Utilize cybersecurity datasets:
+  - **UNSW-NB15** (University of New South Wales Cyber Research)
+  - **CICIDS2017** (Sharafaldin, Lashkari, & Ghorbani)
+- Simulate **healthcare-specific cyber threat scenarios**.
+- Implement **data preprocessing pipelines** for real-time security analysis.
+
+### Machine Learning Model Development
+- Deploy various AI techniques:
+  - **Decision Trees & Random Forest** for interpretable and robust threat detection.
+  - **Deep Learning models** for advanced pattern recognition.
+  - **Feature engineering** focused on **healthcare-specific threats**.
+  - **Anomaly detection** to identify zero-day attacks.
+
+### Testing & Evaluation
+- Test against **real-world healthcare cyber threats**.
+- Optimize model performance for **resource-constrained healthcare environments**.
+- Conduct a **comparative analysis** with existing cybersecurity solutions.
+
+## Project Timeline
+| Week  | Task                                    | Benchmark |
+|-------|----------------------------------------|------------|
+| 1-2   | Data Collection & Preprocessing       | Dataset ready for AI model training |
+| 3-5   | AI Model Training                      | Initial Machine Learning model implementation |
+| 6-8   | System Testing & Optimization         | Model reaches **90%+ accuracy** with optimized false positives |
+| 9-10  | Final Evaluation & Documentation      | Research Paper and UReCA Presentation ready |
+
+## Expected Outcomes
+- **A high-accuracy AI-based threat detection system** for small healthcare practices.
+- **Deployment guidelines** for integrating machine learning-based cybersecurity solutions.
+- **Contribution to cybersecurity resilience**, helping small healthcare organizations protect patient data.
+- Insights into AI applications for **healthcare cybersecurity and regulatory compliance**.
+
+## References
+- Chowdhury, N., & Alazab, M. (2023). *AI-enhanced cybersecurity: Case studies in healthcare IT security.* *Journal of Cyber Threat Intelligence, 9(3), 55-80.*
+- Gupta, R., & Patel, M. (2022). *Machine learning for threat detection: A comparative study.* *Journal of AI Security, 12(2), 112-130.*
+- HIPAA Journal. (2024). *Ransomware Attacks in Healthcare: Trends and Prevention Strategies.* Retrieved from [https://www.hipaajournal.com](https://www.hipaajournal.com)
+- National Institute of Standards and Technology (NIST). (2024). *Implementing the HIPAA Security Rule (NIST SP 800-66).* U.S. Department of Commerce. Retrieved from [https://www.nist.gov/cybersecurity](https://www.nist.gov/cybersecurity)
+- Sharafaldin, I., Lashkari, A. H., & Ghorbani, A. A. (2018). *Toward generating a new intrusion detection dataset and intrusion traffic characterization.* Proceedings of the International Conference on Information Systems Security and Privacy (ICISSP 2018).
+- Stolfo, S. J., & Wang, K. (2023). *Anomaly detection for medical device security in healthcare networks.* *Journal of Healthcare Cybersecurity, 15(4), 101-118.*
+- University of New South Wales Cyber Research. (2023). *NB15 dataset for network anomaly detection.* Retrieved from [https://www.unsw.edu.au](https://www.unsw.edu.au)
+
+## Contact
+**Daren Jadiel Diaz**  
+📧 [daren.j.diaz-1@ou.edu](mailto:daren.j.diaz-1@ou.edu)  
+🏫 **University of Oklahoma, Polytechnic Institute**  
 
 ---
 
-# **AI-Based Threat Detection and Response System for Small Healthcare Organizations**  
 
-## **📌 Project Overview**  
-Cybersecurity threats in healthcare are increasing due to the industry's reliance on digital health records and interconnected systems. Small healthcare organizations, such as clinics and private practices, face a higher risk because they often lack dedicated IT security teams and advanced threat detection capabilities. This project aims to develop an **AI-driven cybersecurity framework** that autonomously detects and mitigates threats in real time.  
-
-## **🎯 Objectives**  
-- Develop a **machine learning-based** threat detection system for small healthcare organizations.  
-- Evaluate its accuracy, recall, and false-positive rate using real-world cybersecurity datasets.  
-- Implement an **automated response** mechanism to mitigate threats effectively.  
-- Provide **recommendations** for AI-powered cybersecurity solutions in small healthcare environments.  
-
-## **🛠️ Methodology**  
-### **1️⃣ Data Collection**  
-- Utilize publicly available cybersecurity datasets: **UNSW-NB15, CICIDS2017**.  
-- Simulate network traffic to train AI models on real-world attack scenarios.  
-
-### **2️⃣ Model Development**  
-- Implement **Machine Learning Models**:
-  - **Decision Trees**
-  - **Random Forest**
-  - **Deep Learning Networks**  
-- Utilize **Feature Engineering** to extract network traffic patterns.  
-- Develop **Anomaly Detection** algorithms for identifying cyber threats.  
-
-### **3️⃣ System Testing & Optimization**  
-- Test models on realistic attack scenarios (e.g., **phishing, malware injection**).  
-- Optimize model accuracy and response time while minimizing false positives.  
-
-### **4️⃣ Final Evaluation & Deployment**  
-- Generate a **comparative analysis report** on AI performance in threat detection.  
-- Prepare a research paper and presentation for **UReCA Showcase**.  
-
-## **📊 Expected Outcomes**  
-✅ A functional **AI-based cybersecurity model** tailored for small healthcare organizations.  
-✅ An evaluation report measuring the effectiveness of AI in reducing cyber threats.  
-✅ A **research paper** for potential publication in cybersecurity and AI journals.  
-✅ A **presentation** showcasing the AI system and its impact.  
-
-## **🗓️ Timeline & Benchmarks**  
-| **Week** | **Task** | **Benchmark** |
-|----------|---------|--------------|
-| 1-2 | Data Collection & Preprocessing | Dataset ready for AI model training |
-| 3-5 | AI Model Training | Initial Machine Learning Model Implementation |
-| 6-8 | System Testing & Optimization | Model reaches **90%+ accuracy** with an optimized false positive rate |
-| 9-10 | Final Evaluation & Documentation | Research Paper and UReCA Presentation ready |
-
-## **🖥️ Tech Stack & Tools**  
-- **Programming Language**: Python  
-- **Libraries & Frameworks**:  
-  - TensorFlow, Scikit-Learn, Pandas, Matplotlib  
-  - Jupyter Notebook for development  
-- **Data Sources**: UNSW-NB15 & CICIDS2017  
-- **Network Analysis Tools**: Wireshark  
-
-## **🔗 References**  
-- HIPAA Journal (2024) – *Ransomware attacks in healthcare trends.*  
-- National Institute of Standards and Technology (NIST) – *Cybersecurity framework for healthcare.*  
-- UNSW Cyber Research – *NB15 dataset for network anomaly detection.*  
-
----
 
