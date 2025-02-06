@@ -1,5 +1,37 @@
-numpy
-pandas
-scikit-learn
-tensorflow
+# Machine Learning & Data Science Libraries
+numpy==1.23.5         # Numerical computing and array operations
+pandas==1.5.3         # Data manipulation and analysis
+scikit-learn==1.2.2   # Machine learning algorithms and utilities
+tensorflow==2.12.0    # Deep learning framework for AI model development
+torch==2.0.1          # PyTorch framework for deep learning
+torchvision==0.15.2   # Image processing utilities for PyTorch
+xgboost==1.7.5        # Gradient boosting for structured data
 
+# Data Processing & Visualization
+matplotlib==3.7.1     # Data visualization library
+seaborn==0.12.2       # Statistical data visualization, built on matplotlib
+
+# Cybersecurity & Network Analysis
+scapy==2.5.0          # Packet manipulation and network analysis
+pyshark==0.6          # Python wrapper for Wireshark packet capture
+tshark==0.4.0         # Command-line network packet analysis
+
+# Anomaly Detection & Feature Engineering
+pyod==1.0.8           # Outlier detection algorithms for anomaly detection
+feature-engine==1.6.1 # Feature transformation and engineering
+
+# Model Deployment & API Integration
+flask==2.2.3          # Lightweight web framework for deploying ML models
+fastapi==0.95.2       # High-performance API framework for ML model serving
+uvicorn==0.22.0       # ASGI server for running FastAPI applications
+
+# Logging & Monitoring
+loguru==0.6.0         # Simplified logging library for tracking model performance
+
+# Jupyter & Development Tools
+jupyterlab==3.6.1     # Interactive coding environment for research and development
+notebook==6.5.4       # Jupyter Notebook support for interactive coding
+
+# Miscellaneous
+requests==2.31.0      # HTTP requests library for API communication
+joblib==1.3.2         # Model persistence and parallel computing utilities
