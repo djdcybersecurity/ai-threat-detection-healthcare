@@ -1,1 +1,6 @@
+*.pyc
+__pycache__/
+data/raw/
+data/models/
+results/logs/
 
